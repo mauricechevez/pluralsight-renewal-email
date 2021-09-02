@@ -28,8 +28,7 @@
         table{
             border-spacing: 0px !important;
         }
-        .pr3{padding-right: 3px;}
-        .pl3{padding-left: 3px;}
+
 
         @media only screen and (max-width:600px){
             .container{width: 100%;}
@@ -42,6 +41,30 @@
                 width: 100%;
                 float: left;
             }
+            .table-left h3, .table-right h3{
+                font-size: 2.5rem;
+            }
+            .table-left img, .table-right img{
+                width: 250px !important;
+            }
+            
+            .header h3{
+                font-size: 3rem !important;
+            }
+            .info-text{
+                font-size: 20px;
+            }
+            .upgrade-button__link,.renew-button__link, .save-button{
+                max-width: 245px !important;
+                font-size: 1.8rem !important;
+            }
+            .copyright,.address, .links-container, .discount-provisions > em{
+                font-size: .9rem !important;
+            }
+            .trademarks{
+                font-size: .8rem !important;
+            }
+            
         }
 
     </style>
@@ -64,7 +87,7 @@
                                         <td><a href="https://www.pluralsight.com"><img src="./assets/img/ps_header.jpg" alt="Save 33%" role="button"></a></td>
                                     </tr>
                                     <tr>
-                                    <table cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #ffd825; background:#ffd825;border:0px none #ffd825;">
+                                    <table cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #ffd825; background:#ffd825;border:0px solid #ffd825;">
                                             <tr>
                                                 <td width="25%" style="padding-left: 35px;">
                                                     <table class="decorative-line" cellspacing="0" cellpadding="0" border="0" width="100%" >
@@ -132,14 +155,14 @@
                             <table cellpadding="0" cellspacing="0" border="0" width="100%" style="padding: 10px 40px 10px 40px;">
                                 <tr>
                                     <td>
-                                        <p style="margin:0 0 0 0; line-height: 1.4;">Save 33% on your individual Standard annual subscription when you renew early or upgrade to Premium now. You don’t have long to grab this discount, so get it while you can!</p>
+                                        <p class="info-text" style="margin:0 0 0 0; line-height: 1.4;">Save 33% on your individual Standard annual subscription when you renew early or upgrade to Premium now. You don’t have long to grab this discount, so get it while you can!</p>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
                                         <ul style="margin:10px 0 0 0;line-height: 1.4;">
-                                            <li>Lock in 12 months of the skill development experiences you know and love for less by renewing your individual Standard annual plan</li>
-                                            <li style="margin-top: 15px;">Upgrade to Premium to test drive skills with new hands-on learning experiences and unlimited access to practice certification exams</li>
+                                            <li class="info-text">Lock in 12 months of the skill development experiences you know and love for less by renewing your individual Standard annual plan</li>
+                                            <li class="info-text" style="margin-top: 15px;">Upgrade to Premium to test drive skills with new hands-on learning experiences and unlimited access to practice certification exams</li>
                                         </ul>
                                     </td>
                                 </tr>
@@ -156,7 +179,7 @@
                     </tr>
                     <!--6 - Discount provisions-->
                     <tr>
-                        <td style="background-color: #000000;background:#000000;padding:0px 40px 0px 40px; color: #ffffff;">
+                        <td class="discount-provisions" style="background-color: #000000;background:#000000;padding:0px 40px 0px 40px; color: #ffffff;">
                             <em style="font-size: .6em;">*Discount cannot be retroactively applied to existing subscriptions. Discount is available August 16 at 12:01 a.m. MT until August 27 at 11:59 p.m. MT.</em>
                         </td>
                     </tr>
@@ -185,15 +208,15 @@
                             </table>
                             <table class="privacy-container"  align="center" cellpadding="0" cellpadding="0" border="0" >
                                 <tr>
-                                    <td><p style="font-size: .6em; text-align: center; color: #666666;margin-bottom: 5px;">Copyright© 2021 Pluralsight LLC.</p>
-                                        <p style="font-size: .5em; text-align: center; color: #666666;margin-top: 0px;">All logos and trademarks are the properties of their respective owners</p>
+                                    <td><p class="copyright" style="font-size: .6em; text-align: center; color: #666666;margin-bottom: 5px;">Copyright© 2021 Pluralsight LLC.</p>
+                                        <p class="trademarks" style="font-size: .5em; text-align: center; color: #666666;margin-top: 0px;">All logos and trademarks are the properties of their respective owners</p>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td style="font-size: .6em; text-align: center; color: #666666;">42 Future Way Draper, UT 84020</td>
+                                    <td class="address" style="font-size: .6em; text-align: center; color: #666666;">42 Future Way Draper, UT 84020</td>
                                 </tr>
                                 <tr>
-                                    <td style="font-size: .6em; text-align: center; color: #666666;">
+                                    <td class="links-container" style="font-size: .6em; text-align: center; color: #666666;">
                                         <br>
                                     <a href="https://www.pluralsight.com" style="color:#666666;">Unsubscribe</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.pluralsight.com" style="color:#666666;">Manage your preferences</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.pluralsight.com" style="color:#666666;">Privacy Policy</a>
                                     </td>
