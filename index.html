@@ -48,8 +48,9 @@
                 width: 250px !important;
             }
             
-            .header h3{
-                font-size: 3rem !important;
+            .header-text h3{
+                font-size: 32px !important;
+                line-height: 1.2 !important;
             }
             .info-text{
                 font-size: 20px;
@@ -64,7 +65,15 @@
             .trademarks{
                 font-size: .8rem !important;
             }
-            
+            img[alt="Build Better"]{
+                width: 245px !important;
+            }
+            .appstore--button {
+                max-width: 120px !important;
+            }
+            .icon{
+                max-width: 38px !important;
+            }
         }
 
     </style>
@@ -84,7 +93,7 @@
                          <td style="border:none !important;">
                                 <table class="header" cellspacing="0" cellpadding="0" border="0" align="center" style="background-color: #ffd825; background:#ffd825;">
                                     <tr>
-                                        <td><a href="https://www.pluralsight.com"><img src="https://mauricechevez.github.io/pluralsight-renewal-email/img/ps_header.jpg" alt="Save 33%" role="button"></a></td>
+                                        <td><a href="https://www.pluralsight.com"><img src="https://mauricechevez.github.io/pluralsight-renewal-email/assets/img/ps_header.jpg" alt="Save 33%" role="button"></a></td>
                                     </tr>
                                     <tr>
                                     <table cellspacing="0" cellpadding="0" border="0" width="100%" align="center" style="background-color: #ffd825; background:#ffd825;border:0px solid #ffd825;">
@@ -96,7 +105,7 @@
                                                         </tr>
                                                     </table>
                                                 </td>
-                                                <td align="center" width="30%"><h3 style="color: white;margin:0 0 0 0;line-height: 25px; padding: 10px 5px 10px 5px;">Time is running out</h3></td>
+                                                <td class="header-text" align="center" width="30%" style="padding: 10px 5px 10px 5px;"><h3 style="color: white;margin:0 0 0 0;line-height: 25px;">Time is running out</h3></td>
                                                 <td width="25%" style="padding-right: 35px;">
                                                     <table class="decorative-line" cellspacing="0" cellpadding="0" border="0" width="100%" >
                                                         <tr>
@@ -118,7 +127,7 @@
                             <table class="table-left" cellspacing="0" cellpadding="0" border="0" align="left" width="50%">
                             <tr>
                                 <td><h3 style="color:white; text-align: center;">Annual</h3>
-                                    <center><img src="https://mauricechevez.github.io/pluralsight-renewal-email/img/annual.png" alt="Annual Renewal Rate"  style="width: 175px; text-align: center;padding-bottom: 15px;"></center>
+                                    <center><img src="https://mauricechevez.github.io/pluralsight-renewal-email/assets/img/annual.png" alt="Annual Renewal Rate"  style="width: 175px; text-align: center;padding-bottom: 15px;"></center>
                                     <div class="renew-button">
                                         <center><a href="https://www.pluralsight.com" class="renew-button__link" style="display:block;width: 100%; max-width: 175px; background-color:#ffd926; text-align: center; text-decoration: none; color: black; font-size: 16px; font-weight: bolder; padding:10px 1px;">Renew Now</a></center>
 
@@ -129,7 +138,7 @@
                             <tr>
                                 <td>
                                     <h3 style="color:white; text-align: center;">Premium</h3>
-                                    <center><img src="https://mauricechevez.github.io/pluralsight-renewal-email/img/premium.png" alt="Premium Upgrade rate" style="width: 175px; padding-bottom: 15px;"></center>
+                                    <center><img src="https://mauricechevez.github.io/pluralsight-renewal-email/assets/img/premium.png" alt="Premium Upgrade rate" style="width: 175px; padding-bottom: 15px;"></center>
                                     <div class="upgrade-button">
                                     <center><a href="https://www.pluralsight.com" class="upgrade-button__link" style="display:block; width:100%;max-width: 175px;background-color:#ffd926; text-align: center; text-decoration: none; color: black; font-size: 16px; font-weight: bolder;padding:10px 1px;">Upgrade Now</a></center>
                                     </div>
@@ -180,43 +189,44 @@
                     <!--6 - Discount provisions-->
                     <tr>
                         <td class="discount-provisions" style="background-color: #000000;background:#000000;padding:0px 40px 0px 40px; color: #ffffff;">
-                            <em style="font-size: .6em;">*Discount cannot be retroactively applied to existing subscriptions. Discount is available August 16 at 12:01 a.m. MT until August 27 at 11:59 p.m. MT.</em>
+                            <em style="font-size: 10px;">*Discount cannot be retroactively applied to existing subscriptions. Discount is available August 16 at 12:01 a.m. MT until August 27 at 11:59 p.m. MT.</em>
                         </td>
                     </tr>
                     <!-- 7 - Footer -->
                     <tr>
                         <td style="background:#000000;background-color:#000000;padding-top: 50px; padding-bottom: 40px;color: #ffffff;">
-                            <center><a href="https://www.pluralsight.com"><img src="https://mauricechevez.github.io/pluralsight-renewal-email/img/buildbetter.png" alt="Build Better"></a></center>
+                            <center><a href="https://www.pluralsight.com"><img src="https://mauricechevez.github.io/pluralsight-renewal-email/assets/img/buildbetter.png" alt="Build Better"></a></center>
                             <table class="app-store__container" align="center" cellpadding="0" cellpadding="0" border="0" style="padding-top: 10px;">
                                 <tr>
-                                    <td style="padding-right: 5px;"><a href="http://track.pluralsight.com/MzA2LURVUC03NDUAAAF_AvHO3HNNt7dHM8FnvOkhDz923BvAP23aPZGFHqEYZsmiR1uP8kQM1NbDXqlYahTwwVgAIVY="><img src="https://mauricechevez.github.io/pluralsight-renewal-email/img/app_store.png" alt="Download the App from the App Store" style="width:100%;max-width: 80px;"></a></td>
-                                    <td><a href="http://track.pluralsight.com/MzA2LURVUC03NDUAAAF_AvHO3Hrssg4ZFQVF-deD7rm9WFES81qMpn5bw6G7I3AYwV7rJcKD_c6DHS31Egjiju3lHZg="><img src="https://mauricechevez.github.io/pluralsight-renewal-email/img/play_store.png" alt="Download the App from the Google Play Store" style="width:100%;max-width: 80px;"></a></td>
+                                    <td style="padding-right: 5px;"><a href="http://track.pluralsight.com/MzA2LURVUC03NDUAAAF_AvHO3HNNt7dHM8FnvOkhDz923BvAP23aPZGFHqEYZsmiR1uP8kQM1NbDXqlYahTwwVgAIVY="><img class="appstore--button" src="https://mauricechevez.github.io/pluralsight-renewal-email/assets/img/app_store.png" alt="Download the App from the App Store" style="width:100%;max-width: 80px;"></a></td>
+                                    <td><a href="http://track.pluralsight.com/MzA2LURVUC03NDUAAAF_AvHO3Hrssg4ZFQVF-deD7rm9WFES81qMpn5bw6G7I3AYwV7rJcKD_c6DHS31Egjiju3lHZg="><img class="appstore--button" src="https://mauricechevez.github.io/pluralsight-renewal-email/assets/img/play_store.png" alt="Download the App from the Google Play Store" style="width:100%;max-width: 80px;"></a></td>
                                 </tr>
                             </table>
                             <table class="socials-container" align="center" cellpadding="0" cellpadding="0" border="0" style="padding-top: 15px;">
                                 <tr>
-                                    <td><a href="http://track.pluralsight.com/MzA2LURVUC03NDUAAAF_AvHO3MYfC-ZlpENFoFoF4G8Ml9P1bKZVTdTrQrtQpB7lq5SSSTs3HaGUDv2SL1BBM_2yDJo="><img src="https://mauricechevez.github.io/pluralsight-renewal-email/img/facebook.png" alt="Visit our Facebook" style="width: 100%; max-width: 25px;vertical-align: middle;"></a></td>
+                                    <td><a href="http://track.pluralsight.com/MzA2LURVUC03NDUAAAF_AvHO3MYfC-ZlpENFoFoF4G8Ml9P1bKZVTdTrQrtQpB7lq5SSSTs3HaGUDv2SL1BBM_2yDJo="><img class="icon" src="https://mauricechevez.github.io/pluralsight-renewal-email/assets/img/facebook.png" alt="Visit our Facebook" style="width: 100%; max-width: 25px;vertical-align: middle;"></a></td>
                                     <td style="width: 25px;">&nbsp;</td>
-                                    <td><a href="http://track.pluralsight.com/MzA2LURVUC03NDUAAAF_AvHO3IYqzJCpWpd5ZGcDubZMbZCwQ_cNdWnSKb2aD1Dg0hTu5D-icD2aOlyOyMjjnjy1AAk="><img src="https://mauricechevez.github.io/pluralsight-renewal-email/img/instagram.png" alt="Visit our Instagram" style="width: 100%; max-width: 25px;vertical-align: middle;"></a></td>
+                                    <td><a href="http://track.pluralsight.com/MzA2LURVUC03NDUAAAF_AvHO3IYqzJCpWpd5ZGcDubZMbZCwQ_cNdWnSKb2aD1Dg0hTu5D-icD2aOlyOyMjjnjy1AAk="><img class="icon" src="https://mauricechevez.github.io/pluralsight-renewal-email/assets/img/instagram.png" alt="Visit our Instagram" style="width: 100%; max-width: 25px;vertical-align: middle;"></a></td>
                                     <td style="width: 25px;">&nbsp;</td>
-                                    <td><a href="http://track.pluralsight.com/MzA2LURVUC03NDUAAAF_AvHO3Bht3ZMwj82hU7gjakTZ5eUa2NBI1HbgM-8MkLFz96nQZXl2VarxyF1T9IPLaIvLZjo="><img src="https://mauricechevez.github.io/pluralsight-renewal-email/img/twitter.png" alt="Visit our Twitter" style="width: 100%; max-width: 25px;vertical-align: middle;"></a></td>
+                                    <td><a href="http://track.pluralsight.com/MzA2LURVUC03NDUAAAF_AvHO3Bht3ZMwj82hU7gjakTZ5eUa2NBI1HbgM-8MkLFz96nQZXl2VarxyF1T9IPLaIvLZjo="><img class="icon" src="https://mauricechevez.github.io/pluralsight-renewal-email/assets/img/twitter.png" alt="Visit our Twitter" style="width: 100%; max-width: 25px;vertical-align: middle;"></a></td>
                                     <td style="width: 25px;">&nbsp;</td>
-                                    <td><a href="http://track.pluralsight.com/MzA2LURVUC03NDUAAAF_AvHO3NSImiUvRlc_soLSmL9bINTbGl5NXrSa_4_bTZTCa3xpltUGsX6xS0BDJKr6bWQQc8c="><img src="https://mauricechevez.github.io/pluralsight-renewal-email/img/linkedin.png" alt="Visit our LinkedIn" style="width: 100%; max-width: 25px;vertical-align: middle;"></a></td>
+                                    <td><a href="http://track.pluralsight.com/MzA2LURVUC03NDUAAAF_AvHO3NSImiUvRlc_soLSmL9bINTbGl5NXrSa_4_bTZTCa3xpltUGsX6xS0BDJKr6bWQQc8c="><img class="icon" src="https://mauricechevez.github.io/pluralsight-renewal-email/assets/img/linkedin.png" alt="Visit our LinkedIn" style="width: 100%; max-width: 25px;vertical-align: middle;"></a></td>
                                     <td style="width: 25px;">&nbsp;</td>
-                                    <td><a href="http://track.pluralsight.com/MzA2LURVUC03NDUAAAF_AvHO3NEIGmEsU5DZ_Ddyqz66Zwsfvjq51lIAHNvybcSIbHlhqrwjMI7EulwyKUyRd9lVtUI="><img src="https://mauricechevez.github.io/pluralsight-renewal-email/img/youtube.png" alt="Visit our YouTube" style="width: 100%; max-width: 25px;vertical-align: middle;"></a></td>
+                                    <td><a href="http://track.pluralsight.com/MzA2LURVUC03NDUAAAF_AvHO3NEIGmEsU5DZ_Ddyqz66Zwsfvjq51lIAHNvybcSIbHlhqrwjMI7EulwyKUyRd9lVtUI="><img class="icon" src="https://mauricechevez.github.io/pluralsight-renewal-email/assets/img/youtube.png" alt="Visit our YouTube" style="width: 100%; max-width: 25px;vertical-align: middle;"></a></td>
+                                    <td style="width: 5px;">&nbsp;</td>
                                 </tr>
                             </table>
                             <table class="privacy-container"  align="center" cellpadding="0" cellpadding="0" border="0" >
                                 <tr>
-                                    <td><p class="copyright" style="font-size: .6em; text-align: center; color: #666666;margin-bottom: 5px;">Copyright© 2021 Pluralsight LLC.</p>
-                                        <p class="trademarks" style="font-size: .5em; text-align: center; color: #666666;margin-top: 0px;">All logos and trademarks are the properties of their respective owners</p>
+                                    <td><p class="copyright" style="font-size: 10px; text-align: center; color: #666666;margin-bottom: 5px;">Copyright© 2021 Pluralsight LLC.</p>
+                                        <p class="trademarks" style="font-size: 9px; text-align: center; color: #666666;margin-top: 0px;">All logos and trademarks are the properties of their respective owners</p>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td class="address" style="font-size: .6em; text-align: center; color: #666666;">42 Future Way Draper, UT 84020</td>
+                                    <td class="address" style="font-size: 10px; text-align: center; color: #666666;">42 Future Way Draper, UT 84020</td>
                                 </tr>
                                 <tr>
-                                    <td class="links-container" style="font-size: .6em; text-align: center; color: #666666;">
+                                    <td class="links-container" style="font-size: 10px; text-align: center; color: #666666;">
                                         <br>
                                     <a href="https://www.pluralsight.com" style="color:#666666;">Unsubscribe</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.pluralsight.com" style="color:#666666;">Manage your preferences</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.pluralsight.com" style="color:#666666;">Privacy Policy</a>
                                     </td>
